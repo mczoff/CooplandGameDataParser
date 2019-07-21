@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CooplandGameDataParser.Core.Params
+namespace CooplandGameDataParser.MongoHandler.Abstractrions
 {
-    public class CooplandGameDataParserContextParams
+    public interface IMongoHandler
+        : IDatabaseHandler
     {
-        public IDatabaseHandler Handler { get; set; }
     }
 }
