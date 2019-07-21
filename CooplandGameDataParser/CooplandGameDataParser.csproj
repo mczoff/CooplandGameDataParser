@@ -54,6 +54,14 @@
       <Project>{2cef9419-f7d2-40b4-8881-e9e8cf889014}</Project>
       <Name>CooplandGameDataParser.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CooplandGameDataParser.DatabaseDefaultHandler\CooplandGameDataParser.DatabaseDefaultHandler.csproj">
+      <Project>{07A30489-FFA2-48FF-9E3C-5D0E810171B2}</Project>
+      <Name>CooplandGameDataParser.DatabaseDefaultHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CooplandGameDataParser.MongoHandler\CooplandGameDataParser.MongoHandler.csproj">
+      <Project>{958FA239-3DE8-47B4-8CEE-A2AD9EDB21C6}</Project>
+      <Name>CooplandGameDataParser.MongoHandler</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

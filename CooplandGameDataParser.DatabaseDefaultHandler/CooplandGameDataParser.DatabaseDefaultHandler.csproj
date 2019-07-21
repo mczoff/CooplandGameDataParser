@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstractions\IDefaultDatabaseHandler.cs" />
+    <Compile Include="Abstractions\IDatabaseHandler.cs" />
     <Compile Include="Models\GameInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
